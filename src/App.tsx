@@ -50,7 +50,7 @@ function App() {
         <div className="container">
           <div className="logo">
             <img
-              src="/src/assets/logo.png"
+              src="/assets/logo.png"
               alt="Value Profit Bank"
               className="logo-img"
             />
@@ -73,7 +73,7 @@ function App() {
           </nav>
 
           <button
-            className="menu-toggle"
+            className={`menu-toggle ${isMenuOpen ? "active" : ""}`}
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           >
             <span></span>
@@ -292,7 +292,7 @@ function App() {
           <div className="footer-content">
             <div className="footer-logo">
               <img
-                src="/src/assets/logo.png"
+                src="/assets/logo.png"
                 alt="Value Profit Bank"
                 className="logo-img"
               />
