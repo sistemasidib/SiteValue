@@ -47,38 +47,57 @@ function App() {
     <div className="app">
       {/* Header */}
       <header className={`header ${scrolled ? "scrolled" : ""}`}>
-        <div className="container">
-          <div className="logo">
+        <div className="header-container">
+          <div className="header-logo">
             <img
               src="/assets/logo.png"
               alt="Value Profit Bank"
-              className="logo-img"
+              className="header-logo-img"
             />
-            <span className="logo-text">Value Profit Bank</span>
+            <span className="header-logo-text">Value Profit Bank</span>
           </div>
 
-          <nav className={`nav ${isMenuOpen ? "nav-open" : ""}`}>
-            <a href="#home" onClick={() => scrollToSection("home")}>
+          <nav className={`header-nav ${isMenuOpen ? "header-nav-open" : ""}`}>
+            <a
+              href="#home"
+              onClick={() => scrollToSection("home")}
+              className="header-nav-link"
+            >
               Início
             </a>
-            <a href="#services" onClick={() => scrollToSection("services")}>
+            <a
+              href="#services"
+              onClick={() => scrollToSection("services")}
+              className="header-nav-link"
+            >
               Serviços
             </a>
-            <a href="#about" onClick={() => scrollToSection("about")}>
+            <a
+              href="#about"
+              onClick={() => scrollToSection("about")}
+              className="header-nav-link"
+            >
               Sobre
             </a>
-            <a href="#contact" onClick={() => scrollToSection("contact")}>
+            <a
+              href="#contact"
+              onClick={() => scrollToSection("contact")}
+              className="header-nav-link"
+            >
               Contato
             </a>
           </nav>
 
           <button
-            className={`menu-toggle ${isMenuOpen ? "active" : ""}`}
+            className={`header-menu-toggle ${
+              isMenuOpen ? "header-menu-toggle-active" : ""
+            }`}
             onClick={() => setIsMenuOpen(!isMenuOpen)}
+            aria-label="Menu"
           >
-            <span></span>
-            <span></span>
-            <span></span>
+            <span className="header-menu-line"></span>
+            <span className="header-menu-line"></span>
+            <span className="header-menu-line"></span>
           </button>
         </div>
       </header>
@@ -323,7 +342,7 @@ function App() {
           </div>
 
           <div className="footer-bottom">
-            <p>&copy; 2024 Value Profit Bank. Todos os direitos reservados.</p>
+            <p>&copy; 2025 Value Profit Bank. Todos os direitos reservados.</p>
           </div>
         </div>
       </footer>
