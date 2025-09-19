@@ -248,7 +248,7 @@ function App() {
                 <div className="contact-icon">✉️</div>
                 <div>
                   <h4>Email</h4>
-                  <p>contato@valueprofitbank.com.br</p>
+                  <p>contato@valuebank.com.br</p>
                 </div>
               </div>
 
