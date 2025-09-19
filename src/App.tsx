@@ -210,7 +210,7 @@ function App() {
               <h2>Sobre a Value Profit Bank</h2>
               <p>
                 A Value Profit Bank é uma empresa especializada em soluções de
-                checkout de cartão de crédito, oferecendo tecnologia de ponta
+                checkout, oferecendo tecnologia de ponta
                 para e-commerces, marketplaces e empresas que buscam maximizar
                 suas conversões de pagamento.
               </p>
