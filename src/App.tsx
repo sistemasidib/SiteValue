@@ -113,9 +113,9 @@ function App() {
               <span className="highlight"> que Impulsiona seu Negócio</span>
             </h1>
             <p className="hero-subtitle">
-              A Value Profit Bank é especialista em checkouts de cartão de
-              crédito, oferecendo as melhores taxas, tecnologia avançada e
-              suporte completo para maximizar suas vendas e conversões.
+              A Value Profit Bank é especialista em checkouts, oferecendo as
+              melhores taxas, tecnologia avançada e suporte completo para
+              maximizar suas vendas e conversões.
             </p>
             <div className="hero-buttons">
               <button
@@ -146,7 +146,7 @@ function App() {
           <div className="services-grid">
             <div className="service-card">
               <div className="service-icon">💳</div>
-              <h3>Checkout de Cartão</h3>
+              <h3>Checkout</h3>
               <p>
                 Soluções completas de checkout com as melhores taxas do mercado,
                 processamento seguro e integração simples para seu e-commerce.
@@ -313,7 +313,7 @@ function App() {
               <img
                 src="/assets/logo.png"
                 alt="Value Profit Bank"
-                className="logo-img"
+                className="footer-logo-img"
               />
               <span>Value Profit Bank</span>
             </div>

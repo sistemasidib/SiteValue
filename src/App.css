@@ -853,6 +853,11 @@ body {
   font-size: 1.25rem;
 }
 
+.footer-logo-img {
+  height: 35px;
+  width: auto;
+}
+
 .footer-links {
   display: flex;
   gap: 2rem;
@@ -1028,10 +1033,6 @@ body {
 
   .logo {
     font-size: 1.1rem;
-  }
-
-  .logo-img {
-    height: 30px;
   }
 
   .nav {
