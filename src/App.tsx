@@ -152,7 +152,7 @@ function App() {
                 processamento seguro e integração simples para seu e-commerce.
               </p>
             </div>
-
+            {/* 
             <div className="service-card">
               <div className="service-icon">📱</div>
               <h3>Pagamentos Mobile</h3>
@@ -160,7 +160,7 @@ function App() {
                 Soluções de pagamento para dispositivos móveis com tecnologia
                 NFC, QR Code e aplicativos nativos para máxima conversão.
               </p>
-            </div>
+            </div> */}
 
             <div className="service-card">
               <div className="service-icon">🔄</div>
@@ -221,7 +221,7 @@ function App() {
                 nossos parceiros comerciais.
               </p>
 
-              <div className="stats">
+              {/* <div className="stats">
                 <div className="stat">
                   <h3>R$ 5M+</h3>
                   <p>Em Transações Processadas</p>
@@ -230,7 +230,7 @@ function App() {
                   <h3>99.9%</h3>
                   <p>Uptime Garantido</p>
                 </div>
-              </div>
+              </div> */}
             </div>
 
             <div className="about-image">
@@ -259,7 +259,7 @@ function App() {
                 <div className="contact-icon">📞</div>
                 <div>
                   <h4>Telefone</h4>
-                  <p>(11) 3000-0000</p>
+                  <p>(61) 99871-5301</p>
                 </div>
               </div>
 
